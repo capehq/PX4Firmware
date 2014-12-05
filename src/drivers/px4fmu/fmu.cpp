@@ -197,8 +197,8 @@ const PX4FMU::GPIOConfig PX4FMU::_gpio_tab[] = {
 	{GPIO_VDD_5V_HIPOWER_OC, 0,                       0},
     {GPIO_VDD_5V_PERIPH_OC,  0,                       0},
     
-    {0,                      GPIO_WEARABLE_LED,       0},
-    {GPIO_WEARABLE_BTN,      0,                       0},
+    {0,                      GPIO_WEARABLE_LED_OUTPUT,0},
+    {GPIO_WEARABLE_BTN_INPUT,0,                       0},
 #endif
 };
 
