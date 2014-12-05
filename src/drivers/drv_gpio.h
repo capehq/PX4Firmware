@@ -86,6 +86,9 @@
 # define GPIO_5V_HIPOWER_OC	(1<<10)		/**< PE10 - !VDD_5V_HIPOWER_OC */
 # define GPIO_5V_PERIPH_OC	(1<<11)		/**< PE10 - !VDD_5V_PERIPH_OC */
 
+# define GPIO_WEARABLE_LED (1<<12)      /**< PB2 - GPIO_WEARABLE_LED */
+# define GPIO_WEARABLE_BTN (1<<13)      /**< PC1 - GPIO_WEARABLE_BTN */
+
 /**
  * Device paths for things that support the GPIO ioctl protocol.
  */

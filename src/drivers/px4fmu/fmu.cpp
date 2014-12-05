@@ -195,7 +195,10 @@ const PX4FMU::GPIOConfig PX4FMU::_gpio_tab[] = {
 	{GPIO_VDD_BRICK_VALID,   0,                       0},
 	{GPIO_VDD_SERVO_VALID,   0,                       0},
 	{GPIO_VDD_5V_HIPOWER_OC, 0,                       0},
-	{GPIO_VDD_5V_PERIPH_OC,  0,                       0},
+    {GPIO_VDD_5V_PERIPH_OC,  0,                       0},
+    
+    {0,                      GPIO_WEARABLE_LED,       0},
+    {GPIO_WEARABLE_BTN,      0,                       0},
 #endif
 };
 
